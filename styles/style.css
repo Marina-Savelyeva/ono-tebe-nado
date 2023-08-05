@@ -20,6 +20,9 @@
   list-style: circle;
 }
 
+.header__link {
+  text-underline-position: under;
+}
 .header__links-list-item_no-bullit {
   text-decoration: none;
   list-style: none;
@@ -240,6 +243,7 @@
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
+  text-underline-position: under;
 }
 
 .card__text {
@@ -356,6 +360,7 @@
 }
 
 .footer__menu-list {
+  text-underline-position: under;
   list-style: none;
   display: flex;
   flex-direction: column;
