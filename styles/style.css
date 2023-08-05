@@ -1,4 +1,4 @@
-  /* хедер начало*/
+/* хедер начало*/
 .header {
   margin-top: 93px;
   width: 1440px;
@@ -49,9 +49,7 @@
   width: 240px;
   text-underline-position: under;
 }
-
 /* хедер конец */
-
 /* ковер начало */
 .cover {
   width: 1440px;
