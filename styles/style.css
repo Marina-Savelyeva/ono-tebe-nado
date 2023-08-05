@@ -1,6 +1,9 @@
 body {
   margin-top: 93px;
   margin-bottom: 90px;
+  padding: 0;
+  margin-left:0;
+  margin-right: 0;
 }
 
 /* хедер начало*/
@@ -21,9 +24,6 @@ body {
 .header__links-list {
   display: flex;
   column-gap: 33px;
-}
-
-.header__links-list {
   list-style: circle;
 }
 
