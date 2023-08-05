@@ -1,13 +1,6 @@
-body {
-  margin-top: 93px;
-  margin-bottom: 90px;
-  padding: 0;
-  margin-right: 0;
-  margin-left:0;
-}
-
 /* хедер начало*/
 .header {
+  margin-top: 93px;
   width: 1440px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -338,6 +331,7 @@ body {
   margin-top: 180px;
   margin-right: 50px;
   margin-left: 50px;
+  margin-bottom: 90px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   font-size: 18px;
