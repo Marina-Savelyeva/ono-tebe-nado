@@ -1,4 +1,4 @@
-/* хедер начало*/
+  /* хедер начало*/
 .header {
   margin-top: 93px;
   width: 1440px;
@@ -45,8 +45,9 @@
   justify-self: end;
   font-style: normal;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 135%;
   width: 240px;
+  text-underline-position: under;
 }
 
 /* хедер конец */
@@ -57,7 +58,7 @@
   height: 757px;
   position: relative;
   color: #fff;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 180px;
@@ -133,6 +134,8 @@
   word-spacing: 17px;
   align-self: center;
   line-height: 28px;
+  position: relative;
+  right: 1px;
 }
 
 .cover__description-text-right {
@@ -161,8 +164,7 @@
 /* секция с карточками начало */
 .lots {
   width: 1440px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 50px;
   margin-bottom: 182px;
 }
 
@@ -195,7 +197,7 @@
   position: relative;
   width: 430px;
   height: 100%;
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -206,7 +208,7 @@
   position: relative;
   width: 430px;
   height: 100%;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -217,7 +219,7 @@
   position: relative;
   width: 430px;
   height: 100%;
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -265,8 +267,8 @@
 /* об начало */
 .about {
   width: 1340px;
-  margin-right: 50px;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 .about__column {
@@ -308,7 +310,7 @@
   line-height: normal;
   text-transform: uppercase;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 101px;
   min-height: 96px;
 }
 
@@ -318,11 +320,11 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 23px;
   display: flex;
   flex-direction: column;
   width: 885px;
-  row-gap: 28px;
+  row-gap: 29px;
 }
 /* об конец */
 /* футер начало */
@@ -352,7 +354,6 @@
 .footer__menu {
   grid-column-start: 6;
   grid-column-end: span 2;
-
   justify-self: center;
 }
 
