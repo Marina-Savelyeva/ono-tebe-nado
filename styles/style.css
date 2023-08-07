@@ -57,6 +57,7 @@
   text-underline-position: under;
 }
 /* хедер конец */
+
 /* ковер начало */
 .cover {
   width: 100vw;
@@ -152,6 +153,7 @@
   height: 100%;
 }
 /* ковер конец */
+
 /* секция с карточками начало */
 .lots {
   width: 100vw;
@@ -258,6 +260,7 @@
   text-decoration-line: underline;
 }
 /* секция с карточками конец */
+
 /* об начало */
 .about {
   width: 100vw;
@@ -315,6 +318,7 @@
   row-gap: 29px;
 }
 /* об конец */
+
 /* футер начало */
 .footer {
   width: 100vw;
